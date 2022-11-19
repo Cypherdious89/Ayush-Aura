@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    margin: 0;    
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body { 
+    box-sizing: border-box;
+    background-size: 100%;
+}
+
+.search-api-container{
+    height: 100vh !important;
+    width: 100vw !important;
+    background-image: url(../../img/bg2.jpg);
+    background-size: 100%;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    width: 60%;
+}
+
+.box-container{
+     background-color: transparent;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5px 2px;
+}
+
+.search_box{
+    padding: 5px;
+    font-size: 2rem;
+    display: flex;
+    background-color: #eee;
+    max-height: max-content;
+    border-radius: 5px;
+}
+
+.search_btn{
+    margin: 0 0 0 8px;
+    width: 80px;
+    height: 50px;
+}
+
+.MuiButton-root{
+    min-height: 100%;
+    min-width: 100%;
+}
